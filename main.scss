@@ -15,9 +15,11 @@
 @import './css/sections/orders.scss';
 @import './css/sections/form.scss';
 @import './css/sections/radio.scss';
+@import './css/sections/fixed-menu.scss';
 
 $containerWidth: 940px;
 $baseFontSize: 18px;  
+$z-fixed-menu: 100;
 
 $red: #E01F3D;
 $grey: #666666;
