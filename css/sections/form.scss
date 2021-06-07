@@ -13,6 +13,11 @@
 
 .form__row{
   display: flex;
+  margin-bottom: 18px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
 }
 
 .form__block{
@@ -22,8 +27,6 @@
   &:last-child{
     margin-right: 0;
   }
-
-  margin-bottom: 18px;
 }
 
 .form__input{
@@ -49,6 +52,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 12px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
 }
 
 .form__col-wrapper{

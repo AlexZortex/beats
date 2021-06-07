@@ -2,11 +2,17 @@
   position: fixed;
   top: 20%;
   right: 3%;
-  z-index: $z-fixed-menu;
+  z-index: 100;
 }
-
+// HELLO
 .fixed-menu__item{
   margin-bottom: 5px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+  
+ 
   &--active{
     .fixed-menu__link{
       border-color:#E01F3D;
